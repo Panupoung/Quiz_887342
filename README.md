@@ -54,3 +54,7 @@ US_states = {"Alabama" => "AL",
 	 US_states.each { |x, y|  puts "#{x}: #{y}" if ("#{y[1]}"=="T")||("#{y[1]}"=="N")}
 	 
 	 puts "--------"
+	 
+	 US_states.sort_by { |x, y|  puts "#{x}: #{y}" }
+        
+         puts "--------"
